@@ -9,17 +9,42 @@ return [
 
     'about' => [
         'controller' => 'main',
-        'action' => 'login',
+        'action' => 'about',
     ],
 
-    '/contact' => [
+    'contact' => [
         'controller' => 'main',
-        'action' => 'register',
-    ]
+        'action' => 'contact',
+    ],
 
     'post' => [
         'controller' => 'main',
-        'action' => 'register',
+        'action' => 'post',
     ],
-    //
+
+    //AdminController
+    'login' => [
+        'controller' => 'admin',
+        'action' => 'login',
+    ],
+
+    'logout' => [
+        'controller' => 'admin',
+        'action' => 'logout',
+    ],
+
+    'add' => [
+        'controller' => 'admin',
+        'action' => 'add',
+    ],
+
+    'edit' => [
+        'controller' => 'admin',
+        'action' => 'edit',
+    ],
+
+    'delete' => [
+        'controller' => 'admin',
+        'action' => 'delete',
+    ]
 ];

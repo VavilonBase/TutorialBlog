@@ -1,4 +1,3 @@
-
 <header class="masthead" style="background-image: url('/public/materials/<?php echo $data['id']; ?>.jpg')">
     <div class="container">
         <div class="row">

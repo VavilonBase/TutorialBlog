@@ -13,6 +13,7 @@ return [
         'logout',
         'add',
         'edit',
-        'delete'
+        'delete',
+        'posts'
     ],
 ];

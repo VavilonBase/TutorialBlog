@@ -6,7 +6,7 @@ class View
 {
     protected $path;
     protected $route;
-    protected $layout = 'default';
+    public $layout = 'default';
 
 
     public function __construct($route) {
